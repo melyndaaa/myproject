@@ -36,13 +36,9 @@ button {
     display: inline-block; /* Ensure they are inline */
 }
 
-.yes-button {
-    display: none; /* Hide the Yes button by default */
-}
 
-.no-button:hover + .yes-button {
-    display: inline-block; /* Show the Yes button when hovering over No */
-}
+
+
 
 #faceContainer1, #faceContainer2 {
     font-size: 50px;
